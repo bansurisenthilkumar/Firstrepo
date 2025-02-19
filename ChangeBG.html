@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BgCC</title>
+</head>
+<body>
+
+    <div id="box" style="width: 500px; height: 500px; background-color: lightgray;">
+        Click the button to change my background
+    </div>
+
+    <button onclick="changeBackground()">Change Background</button>
+
+    <script>
+        function changeBackground() {
+            const element = document.getElementById("box")
+            
+
+            if(element.style.backgroundColor=="green"){
+                element.style.backgroundColor="red";
+            }else{
+                element.style.background="green";
+            }
+        }
+    </script>
+
+</body>
+</html>

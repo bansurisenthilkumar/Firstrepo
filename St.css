@@ -1,0 +1,43 @@
+/* #Logo{
+    width: 100px;
+    height: 50px;
+} */
+#Title{
+    color: blue;
+}
+#Container{
+    background-color: blue;
+    width: 500px;
+    height: 100vh;
+}
+
+#Heading{
+    color: white;
+    background-color: blue;
+    font-family:  sans-serif;
+    width: 600px;
+    height: auto;
+}
+#info{
+    font-size: large;
+    background-color: blue;
+    color: White;
+}
+nav{
+    display: flex;
+    justify-content: space-between; /* Adjust alignment */
+    align-items: center; /* Centers items vertically */
+    padding: 10px 20px;
+    background-color: blue;
+    margin-top: -30px;
+    padding-left: 20px;
+}
+nav ul {
+        display: flex;
+        list-style: none;
+        gap: 20px; /* Adds spacing between items */
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
